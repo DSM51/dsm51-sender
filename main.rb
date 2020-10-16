@@ -65,7 +65,7 @@ end
 
 dsm = DSM.new($port)
 parser = IHex::Parser.new
-bin = parser.parse(File.read('/home/user/Desktop/rzeszot.hex'))
+bin = parser.parse(File.read('/home/pi/program.hex'))
 
 
 
